@@ -81,9 +81,6 @@
     }
     &__category {
       width: 100%;
-      &:hover {
-        background: linear-gradient(90deg, rgba(0, 0, 0, 0.54) 0%, rgba(128, 128, 128, 0) 100%, rgba(255, 255, 255, 0) 100%);
-      }
     }
     &__title {
       padding-top: 35px;
