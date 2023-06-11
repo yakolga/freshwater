@@ -11,7 +11,7 @@
     line-height: 16px;
     color: $dark-color;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 435px) {
     &__container {
       flex-direction: column-reverse;
     }

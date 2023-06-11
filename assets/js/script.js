@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     footerTime = document.querySelector(".footer__time"),
     headerInfo = document.querySelector(".header__info-cart");
 
-  if (screen.width < 425) {
+  if (screen.width < 435) {
     priceToChange.innerHTML = "Okazyjne ceny";
     deliveryToChange.innerHTML = "Darmowa dostawa od 50zł";
     imageOffirstProductToChange.src = "assets/images/filtr_do_ekspresow_delonghi.jpg",
@@ -152,7 +152,3 @@ $(document).ready(function() {
     ]
   });
 });
-
-
-
-
