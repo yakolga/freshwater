@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freshwater</title>
+  <link rel="stylesheet" href="assets/css/style.min.css">
+  <link rel="stylesheet" href="assets/slick/slick.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header__preheader">
+      <p class="header__text">Tylko dzisiaj! Darmowa dostawa dla zamówień od 100zł</p>
+    </div>
+    <div class="header__container container">
+      <div class="header__header">
+        <a href="/index.html" class="header__logo">
+          <img src="assets/icons/logo.svg" alt="logo">
+        </a>
+        <div class="header__right">
+          <div class="header__search">
+          <form class="header__form" action="#">
+            <input class="header__input" type="text" placeholder="Wpisz czego szukasz">
+            <button type="submit"><img src="assets/icons/search.svg" alt="wyszukiwarka"></button>
+          </form>
+          </div>
+          <div class="header__icons">
+            <a href="" class="header__user header__icon">
+              <img src="assets/icons/user.svg" alt="konto uzytkownika">
+            </a>
+            <a href="" class="header__heart header__icon">
+              <img src="assets/icons/heart.svg" alt="ulubione produkty">
+              <span class="header__info">0</span>
+            </a>
+            <a href="" class="header__cart header__icon">
+              <img src="assets/icons/cart.svg" alt="koszyk">
+              <span class="header__info header__info-cart">0</span>
+            </a>
+            <span class="header__amount">0,00 zł</span>
+            <div class="header__hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__wrapper">
+      <div class="header__container container">
+        <nav class="header__navigation">
+          <ul class="header__list">
+            <li class="header__item header__addition"><a class="header__link" href="#">Do lodówek</a>
+              <ul class="header__sub-menu">
+                <li class="header__sub-item"><a class="header__link" href="#">Filtry wody do lodówek</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Samsung</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Bosch</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">LG</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Whirpool</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Panasonic</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Panasonic</a></li>
+              </ul>
+            </li>
+            <li class="header__item header__addition"><a class="header__link" href="">Do ekspresów</a>
+              <ul class="header__sub-menu">
+                <li class="header__sub-item"><a class="header__link" href="#">Filtry wody do lodówek</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Samsung</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Bosch</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">LG</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Whirpool</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Panasonic</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Panasonic</a></li>
+              </ul>
+            </li>
+            <li class="header__item header__addition"><a class="header__link" href="">Dzbanki, butelki i wkłady filtrujące </a>
+              <ul class="header__sub-menu">
+                <li class="header__sub-item"><a class="header__link" href="#">Filtry wody do lodówek</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Samsung</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Bosch</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">LG</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Whirpool</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Panasonic</a></li>
+                <li class="header__sub-item"><a class="header__sub-link" href="#">Panasonic</a></li>
+              </ul>
+            </li>
+            <li class="header__item"><a class="header__link" href="">Kawa ziarnista</a></li>
+            <li class="header__item"><a class="header__link" href="">Coś do kawy</a></li>
+          </ul>
+          <button class="header__button">Promocje</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="mobile">
+    <img class="mobile__close" src="assets/icons/cros.svg" alt="zamknij">
+    <div class="mobile__menu">
+      <nav class="mobile__navigation">
+        <ul class="mobile__list">
+          <li class="mobile__item">
+            <span class="mobile__span">
+              <a class="mobile__link" href="#">Do lodówek</a>
+              <img class="mobile__arrow" src="assets/icons/arrow_blue.svg" alt="rozwiń listę">
+            </span>
+            <ul class="mobile__sub">
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Filtry wody do lodówek</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Samsung</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Bosch</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">LG</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Whirpool</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Panasonic</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Panasonic</a></li>
+            </ul>
+          </li>
+          <li class="mobile__item">
+            <span class="mobile__span">
+              <a class="mobile__link" href="#">Do ekspresów</a>
+              <img class="mobile__arrow" src="assets/icons/arrow_blue.svg" alt="rozwiń listę">
+            </span>
+            <ul class="mobile__sub">
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Filtry wody do lodówek</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Samsung</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Bosch</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">LG</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Whirpool</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Panasonic</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Panasonic</a></li>
+            </ul>
+          </li>
+          <li class="mobile__item">
+            <span class="mobile__span">
+              <a class="mobile__link" href="#">Dzbanki, butelki i wkłady filtrujące </a>
+              <img class="mobile__arrow" src="assets/icons/arrow_blue.svg" alt="rozwiń listę">
+            </span>
+            <ul class="mobile__sub">
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Filtry wody do lodówek</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Samsung</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Bosch</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">LG</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Whirpool</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Panasonic</a></li>
+              <li class="mobile__sub-item"><a class="mobile__sub-link" href="#">Panasonic</a></li>
+            </ul>
+          </li>
+          <li class="mobile__item"><a class="mobile__link" href="#">Kawa ziarnista</a></li>
+          <li class="mobile__item"><a class="mobile__link"href="#">Coś do kawy</a></li>
+          <li class="mobile__item"><a class="mobile__link" href="#">Promocje</a></li>
+        </ul>
+      </nav>
+      <div class="mobile__form">
+        <form action="#">
+          <input class="mobile__input" type="search" placeholder="Wpisz czego szukasz">
+          <button class="mobile__button" type="submit"><img src="assets/icons/mobile-search.svg" alt="szukaj"></button>
+        </form>
+      </div>
+      <a href="#" class="mobile__action">
+        <img src="assets/icons/mobile_user.svg" alt="Zaloguj się">
+        <span class="mobile__span">Zaloguj się</span>
+      </a>
+      <a href="#" class="mobile__action">
+        <img src="assets/icons/mobile_register.svg" alt="Zarejestruj się">
+        <span class="mobile__span">Zarejestruj się</span>
+      </a>
+      <a href="#" class="mobile__action">
+        <img src="assets/icons/mobile_status.svg" alt="Sprawdź status zamówienia">
+        <span class="mobile__span">Sprawdź status zamówienia</span>
+      </a>
+    </div>
+  </div>
+  <main class="main">
+    <div class="promo">
+      <div class="promo__container container">
+        <div class="promo__slider slider">
+          <div class="promo__slide"><img class="promo__desktop" src="assets/images/slider.jpg" alt="slide_1"><img class="promo__mobile" src="assets/images/banner_mobile.png" alt="slide_1"></div>
+          <div class="promo__slide"><img class="promo__desktop" src="assets/images/slider.jpg" alt="slide_2"><img class="promo__mobile" src="assets/images/banner_mobile.png" alt="slide_1"></div>
+          <div class="promo__slide"><img class="promo__desktop" src="assets/images/slider.jpg" alt="slide_3"><img class="promo__mobile" src="assets/images/banner_mobile.png" alt="slide_1"></div>
+          <div class="promo__slide"><img class="promo__desktop" src="assets/images/slider.jpg" alt="slide_4"><img class="promo__mobile" src="assets/images/banner_mobile.png" alt="slide_1"></div>
+        </div>
+      </div>
+    </div>
+    <div class="advantages">
+      <div class="advantages__container container">
+        <div class="advantages__wrapper">
+          <div class="advantages__part">
+            <div class="advantages__item">
+              <img src="assets/icons/benefit1.svg" alt="najszybsza dostawa" class="advantages__icon">
+              <p class="advantages__text" id="price">Najszybsza dostawa</p>
+            </div>
+            <div class="advantages__item">
+              <img src="assets/icons/benefit2.svg" alt="aż 180 dni na zwrot" class="advantages__icon">
+              <p class="advantages__text">Aż 180 dni na zwrot</p>
+            </div>
+          </div>
+          <div class="advantages__part">
+            <div class="advantages__item">
+              <img src="assets/icons/benefit3.svg" alt="profesjonalne doradztwo" class="advantages__icon">
+              <p class="advantages__text">Profesjonalne doradztwo</p>
+            </div>
+            <div class="advantages__item">
+              <img src="assets/icons/benefit4.svg" alt="darmowa dostawa od 200 zł" class="advantages__icon">
+              <p class="advantages__text" id="delivery">Darmowa dostawa od 200 zł</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="products">
+      <div class="products__container container">
+        <h2 class="products__title title">Nasze produkty</h2>
+        <div class="products__slider">
+          <div class="products__product">
+            <div class="products__inner">
+              <a href="#"><img id="delonghi-image" src="assets/images/pol_il_Tabletki-czyszczace-do-ekspresu-Siemens-Bosch-TZ80001-2w1-oryginal-171.jpg" alt="Tabletki czyszczace do ekspresu Siemens Bosch" class="products__image"></a>
+              <h3 class="products__subtitle" id="delonghi-subtitle">Tabletki czyszczące do ekspresu Siemens Bosch TZ80001 2w1 - oryginał</h3>
+              <div class="products__prices">
+                <div class="products__actual" id="delonghi-price">35,40 zł</div>
+                <div class="products__old">38,90 zł</div>
+              </div>
+              <div class="products__cart"><img src="assets/icons/shopping-cart.svg" alt="koszyk"></div>
+            </div>
+          </div>
+          <div class="products__product">
+            <div class="products__inner">
+              <a href="#"><img id="philips-image" src="assets/images/pol_il_3x-Filtr-Seltino-Ocea-zamiennik-do-Philips-Saeco-CA6903-AquaClean-259.jpg" alt="Tabletki czyszczace do ekspresu Siemens Bosch" class="products__image"></a>
+              <h3 class="products__subtitle" id="philips-subtitle">3x Filtr Seltino Ocea zamiennik do Philips Saeco CA6903 AquaClean</h3>
+              <div class="products__prices">
+                <div class="products__actual" id="philips-price">44,20 zł</div>
+                <div class="products__old">52,00 zł</div>
+              </div>
+              <div class="products__cart"><img src="assets/icons/shopping-cart.svg" alt="koszyk"></div>
+            </div>
+          </div>
+          <div class="products__product">
+            <div class="products__inner">
+              <a href="#"><img src="assets/images/pol_il_2x-Filtr-Seltino-SBH-Ultra-zamiennik-do-Ultra-Clarity-644845-375.jpg" alt="Tabletki czyszczace do ekspresu Siemens Bosch" class="products__image"></a>
+              <h3 class="products__subtitle">2x Filtr Seltino SBH-Ultra zamiennik do Ultra Clarity 644845</h3>
+              <div class="products__prices">
+                <div class="products__actual">110,50 zł</div>
+                <div class="products__old">130,00 zł</div>
+              </div>
+              <div class="products__cart"><img src="assets/icons/shopping-cart.svg" alt="koszyk"></div>
+            </div>
+          </div>
+          <div class="products__product">
+            <div class="products__inner">
+              <a href="#"><img src="assets/images/pol_il_ZESTAW-2x-Odkamieniacz-Seltino-Entkalker-1000-ml-szczoteczka-365.jpg" alt="Tabletki czyszczace do ekspresu Siemens Bosch" class="products__image"></a>
+              <h3 class="products__subtitle">ZESTAW: 2x Odkamieniacz Seltino Entkalker 1000 ml + szczoteczka</h3>
+              <div class="products__prices">
+                <div class="products__actual">30,02 zł</div>
+                <div class="products__old">35,32 zł</div>
+              </div>
+              <div class="products__cart"><img src="assets/icons/shopping-cart.svg" alt="koszyk"></div>
+            </div>
+          </div>
+          <div class="products__product">
+            <div class="products__inner">
+              <a href="#"><img src="assets/images/pol_il_ZESTAW-2x-Odkamieniacz-Seltino-Entkalker-1000-ml-szczoteczka-365.jpg" alt="Tabletki czyszczace do ekspresu Siemens Bosch" class="products__image"></a>
+              <h3 class="products__subtitle">ZESTAW: 2x Odkamieniacz Seltino Entkalker 1000 ml + szczoteczka</h3>
+              <div class="products__prices">
+                <div class="products__actual">30,02 zł</div>
+                <div class="products__old">35,32 zł</div>
+              </div>
+              <div class="products__cart"><img src="assets/icons/shopping-cart.svg" alt="koszyk"></div>
+            </div>
+          </div>
+          <div class="products__product">
+            <div class="products__inner">
+              <a href="#"><img src="assets/images/pol_il_ZESTAW-2x-Odkamieniacz-Seltino-Entkalker-1000-ml-szczoteczka-365.jpg" alt="Tabletki czyszczace do ekspresu Siemens Bosch" class="products__image"></a>
+              <h3 class="products__subtitle">ZESTAW: 2x Odkamieniacz Seltino Entkalker 1000 ml + szczoteczka</h3>
+              <div class="products__prices">
+                <div class="products__actual">30,02 zł</div>
+                <div class="products__old">35,32 zł</div>
+              </div>
+              <div class="products__cart"><img src="assets/icons/shopping-cart.svg" alt="koszyk"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="categories">
+      <div class="categories__container container">
+        <div class="categories__categories">
+          <a href="#" class="categories__category" style="background-image: url(assets/images/categories-tile-bg1.jpg);">
+            <h3 class="categories__subtitle">Do lodówki</h3>
+          </a>
+          <a href="#" class="categories__category" style="background-image: url(assets/images/categories-tile-bg2.jpg);">
+            <h3 class="categories__subtitle">Do ekspresu</h3>
+          </a>
+          <a href="#" class="categories__category" style="background-image: url(assets/images/categories-tile-bg3.jpg);">
+            <h3 class="categories__subtitle">Do picia</h3>
+          </a>
+        </div>
+        <div class="categories__other">
+          <h2 class="categories__title title">Lub wybierz coś specjalnego</h2>
+          <div class="categories__options">
+            <a href="#" class="categories__option">Kawa</a>
+            <a href="#" class="categories__option">Tabletki czyszczące do ekspresu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="blog__container container">
+        <h2 class="blog__title title">Poznaj nasze aktualności</h2>
+        <p class="blog__text">Zobacz wszystkie wpisy</p>
+        <div class="blog__wrapper">
+          <a href="" class="blog__post">
+            <img src="assets/images/wpis1.jpg" alt="Jaki filtr wybrać do ekspresu do kawy?" class="blog__image">
+            <span class="blog__date" id="first-blog-date">2022-06-09</span>
+            <h3 class="blog__subtitle">Jaki filtr wybrać do ekspresu do kawy?</h3>
+          </a>
+          <a href="" class="blog__post">
+            <img src="assets/images/wpis2.jpg" alt="Jaka woda najlepsza do kawy i herbaty?" class="blog__image">
+            <span class="blog__date" id="second-blog-date">2022-06-08</span>
+            <h3 class="blog__subtitle">Jaka woda najlepsza do kawy i herbaty?</h3>
+          </a>
+          <a href="" class="blog__post">
+            <img src="assets/images/wpis3.jpg" alt="Jak uzyskać dobry smak wody?" class="blog__image">
+            <span class="blog__date" id="third-blog-date">2022-06-07</span>
+            <h3 class="blog__subtitle">Jak uzyskać dobry smak wody?</h3>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter">
+      <img class="newsletter__right newsletter__absolute" src="assets/images/water_desktop.png" alt="fala z wodą">
+      <div class="newsletter__container container">
+        <div class="newsletter__inner">
+          <h2 class="newsletter__title title">Bądź na bieżąco z aktualnymi promocjami.</h2>
+          <p class="newsletter__text">Dołącz do newslettera</p>
+          <form action="#" class="newsletter__form">
+            <input type="email" class="newsletter__input" placeholder="Twój email" name="email" required>
+            <label class="newsletter__label">
+              <input type="checkbox" class="newsletter__checkbox" name="subscribe" required>Chcę otrzymywać E-mail Newsletter. Wyrażam zgodę na przetwarzanie moich danych osobowych do celów
+              marketingowych zgodnie z polityką prywatności
+            </label>
+            <input class="newsletter__button" type="submit" value="Zapisz się">
+          </form>
+        </div>
+        <img class="newsletter__left newsletter__absolute" src="assets/images/kolegafreshwater.png" alt="kolega freshwater">
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__inner">
+          <div class="footer__column footer__flex">
+            <a href="/index.html" class="footer__logo"><img src="assets/icons/logo_white.svg" alt="logo"></a>
+            <div class="footer__socials">
+              <a href="#"><img src="assets/icons/facebook.svg" alt="facebook"></a>
+              <a href="#"><img src="assets/icons/instagram.svg" alt="instagram"></a>
+            </div>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__subtitle footer__title">Kontakt</h4>
+            <a href="tel:+48500500500" class="footer__phone">
+              <img src="assets/icons/phone.svg" alt="telefon">
+              <span>+48 500 500 500</span>
+            </a>
+            <p class="footer__time">Od poniedziałku do piątku w godzinach 08:00-16:00</p>
+            <p class="footer__subtitle footer__title">Email</p>
+            <a href="mailto:kontakt@freshwater.pl" class="footer__email">kontakt@freshwater.pl</a>
+          </div>
+          <div class="footer__column">
+            <div class="footer__button feature__link feature__link_active">
+              <h4 class="footer__subtitle">Moje zamówienia</h4>
+              <img src="assets/icons/arrow_white.svg" alt="rozwiń listę" class="feature__transform">
+            </div>
+            <ul class="footer__list feature-sub">
+              <li class="footer__item"><a href="#" class="footer__link">Status zamówienia</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Chcę zareklamować</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Chcę zwrócić towar</a></li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <div class="footer__button feature__link">
+              <h4 class="footer__subtitle">Moje konto</h4>
+              <img src="assets/icons/arrow_white.svg" alt="rozwiń listę" class="feature__transform">
+            </div>
+            <ul class="footer__list feature-sub">
+              <li class="footer__item"><a href="#" class="footer__link">Zarejestruj się</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Moje zamówienia</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Koszyk</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Lista zakupowa</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Historia transakcji</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Moje rabaty</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Newsletter</a></li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <div class="footer__button feature__link">
+              <h4 class="footer__subtitle">Informacje</h4>
+              <img src="assets/icons/arrow_white.svg" alt="rozwiń listę" class="feature__transform">
+            </div>
+            <ul class="footer__list feature-sub">
+              <li class="footer__item"><a href="#" class="footer__link">Informacje o sklepie</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Wysyłka</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Sposoby płatności</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Regulamin</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Polityka prywatności</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Odstąpienie od umowy</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Kontakt</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="afterfooter">
+      <div class="afterfooter__container container">
+        <a class="afterfooter__code" href="https://webjaksklep.eu/">Code&design: Webjaksklepu.eu</a>
+        <a class="afterfooter__poweredby" href="https://www.idosell.com/"><img src="assets/icons/poweredby_IdoSell_Shop_white.svg" alt="powered by IdoSell"></a>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script src="assets/slick/slick.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

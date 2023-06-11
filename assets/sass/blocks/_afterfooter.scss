@@ -1,0 +1,22 @@
+.afterfooter {
+  padding: 11px 0;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__code {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: $dark-color;
+  }
+  @media (max-width: 425px) {
+    &__container {
+      flex-direction: column-reverse;
+    }
+    &__poweredby {
+      margin-bottom: 9px;
+    }
+  }
+}
